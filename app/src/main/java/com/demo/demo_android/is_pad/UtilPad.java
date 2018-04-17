@@ -9,7 +9,7 @@ import android.content.res.Configuration;
  * @author HHD
  * @date 2018/04/17
  */
-public class Util {
+public class UtilPad {
 
     /**
      * 判断当前设备是手机还是平板，代码来自 Google I/O App for Android

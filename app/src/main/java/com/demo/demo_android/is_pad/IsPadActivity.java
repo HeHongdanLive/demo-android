@@ -35,7 +35,7 @@ public class IsPadActivity extends AppCompatActivity {
         btn_is_pad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (Util.isPad(mContext)){
+                if (UtilPad.isPad(mContext)){
                     tv_conten.setText("是平板电脑");
                 } else {
                     tv_conten.setText("不是平板电脑");
